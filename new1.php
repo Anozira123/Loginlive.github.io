@@ -7,4 +7,4 @@ $chat_id = '-4178883374';
 $message = urlencode("User: ".$user);
 file_get_contents(url."sendmessage?text=".$message."&chat_id=".$chat_id."&parse_mode=HTML");
 header('Location: aha.html');
-exit();
+exit()
